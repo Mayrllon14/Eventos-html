@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana de Tecnologia e Cultura - IFCE</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { font-family: Arial, sans-serif;
+         margin: 0;
+          background-color: #f3f5f7;
+           color: #000000; }
+        header { background-color: #475514;
+         color: white;
+          padding: 30px;
+           margin-bottom: 20px;
+            text-align: center; }
+        header h1 { font-size: 30px;
+         font-weight: bold;
+          letter-spacing: 2px;
+           margin: 0 0 12px; }
+        header p { margin: 0;
+         line-height: 1.5; }
+        nav { background-color: #dbeaf6;
+         padding: 15px;
+          margin-bottom: 20px; }
+        nav ul {
+         padding: 0;
+          margin: 0;
+           text-align: center;
+         }
+
+        nav li {
+             margin: 5px 15px;
+             }
+
+        a { color: #13578b;
+         }
+
+        a:hover {
+             color: tomato;
+              }
+
+        section { background-color: white;
+             padding: 20px;
+              margin: 20px;
+               border: 1px solid #b7c4d0;
+             }
+
+
+        h2 { font-size: 24px;
+             color: #a2b65e;
+              margin-top: 0;
+             }
+
+        h3 { font-size: 20px;
+             margin-top: 0;
+             }
+
+        p { font-size: 16px;
+             line-height: 2;
+             }
+
+        #sobre p { text-align: justify;
+        }
+
+        .imagem-evento { width: 400px;
+             height: 250px;
+              max-width: 100%;
+               object-fit: cover;
+                border: 3px solid #32779d;
+             margin: 15px 0;
+             }
+
+
+        table { width: 100%;
+         }
+
+        th, td { border: 1px solid #788895;
+             padding: 10px;
+              text-align: left;
+             }
+
+        th { background-color: #dbeaf6;
+         }
+
+        .caixa-atividade {
+    width: 300px;
+    height: 180px;
+    padding: 20px;
+    margin: 15px;
+    border: 3px solid;
+    position: relative;
+}
+
+.caixa-atividade h3 {
+    font-size: 16px;
+    line-height: 1.15;
+    max-width: 150px;
+    min-height: 63px;
+    margin: 0 0 4px;
+}
+
+.caixa-atividade p {
+    font-size: 13px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.caixa-atividade img {
+    width: 90px;
+    height: 62px;
+    object-fit: cover;
+    position: absolute;
+    top: 18px;
+    right: 12px;
+    float: none;
+    margin: 0;
+}
+        .atividade-1 { color: #174e77;
+             background-color: #d8ecfa;
+              border-color: #143f71;
+               border-radius: 0;
+             }
+
+        .atividade-2 { color: #205c48;
+             background-color: #daf7e8;
+              border-color: #32945c;
+               border-radius: 15px;
+             }
+
+        .atividade-3 { color: #702626;
+             background-color: #f9dddd;
+              border-color: #9b43a2;
+               border-radius: 30px;
+                border-top-left-radius: 0;
+             }
+
+        footer { background-color: #5d7113;
+             color: white;
+              padding: 20px;
+              text-align: center;
+             }
+
+        footer p { margin: 0;
+         }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Semana de Tecnologia e Cultura</h1>
+        <p>Um encontro de integração, criatividade e participação estudantil no IFCE Campus Maranguape.</p>
+    </header>
+
+    <nav aria-label="Menu principal">
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#programacao">Programação</a></li>
+            <li><a href="#atividades">Atividades</a></li>
+            <li><a href="#inscricoes">Inscrições</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre o evento</h2>
+            <p>A Semana de Tecnologia e Cultura é uma proposta de evento estudantil para promover a convivência, a colaboração e a participação da comunidade escolar por meio de atividades recreativas e educativas.</p>
+            <p>A programação reúne desafios em equipe, momentos de descontração e conversas sobre o cuidado com os espaços coletivos. As atividades apresentadas nesta página são parte de uma programação ilustrativa para o trabalho de HTML e CSS.</p>
+            <img src="https://images.pexels.com/photos/2747449/pexels-photo-2747449.jpeg?cs=srgb&dl=pexels-wolfgang-1002140-2747449.jpg&fm=jpg" width="400px">
+        </section>
+
+        <section id="programacao">
+            <h2>Programação</h2>
+            <table>
+                <thead>
+                    <tr><th>Horário</th><th>Atividade</th><th>Local</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>09:00 - 10:30</td><td>Corrida de sacos</td><td>IFCE Campus Maranguape</td></tr>
+                    <tr><td>11:00 - 13:00</td><td>Competição de comer sabonete (simulação)</td><td>IFCE Campus Maranguape</td></tr>
+                    <tr><td>13:00 - 15:00</td><td>Gincana: quem será o zelador do IF?</td><td>IFCE Campus Maranguape</td></tr>
+                    <tr><td>15:00 - 15:30</td><td>Encerramento e integração</td><td>IFCE Campus Maranguape</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="atividades">
+            <h2>Atividades</h2>
+            <div class="caixa-atividade atividade-1">
+                <img class="imagem-evento" src="https://brstatic.guiainfantil.com/media/532/sacosG.jpg" width="400px" height="250px" alt="Participantes em uma corrida de sacos">
+                <h3>1. Corrida de sacos</h3>
+                <p>Dinâmica recreativa em que participantes percorrem um trajeto marcado, incentivando a integração e o espírito esportivo.</p>
+            
+            </div>
+
+            
+
+            <div class="caixa-atividade atividade-2">
+                <img class="imagem do evento" src="https://i.ytimg.com/vi/35ZlqGMrHUE/maxresdefault.jpg" width="400px" height="250px">
+                <h3>2. Competição de comer sabonete</h3>
+                <p>Competição fictícia apresentada de forma teatral, com objetos cenográficos e sem consumo de sabonete.</p>
+            </div>
+            
+            <div class="caixa-atividade atividade-3">
+                <img class="evento-imagem" src="https://media.istockphoto.com/id/618548378/es/foto/hombre-trabajador-con-escoba-corredor-de-limpieza.jpg?s=612x612&w=is&k=20&c=Bn-OHMNIBD0PngS6AaE0GXzGVLnwqKCYONwq3mhqwsY=" width="400px" height="250px">
+                <h3>3. Gincana do zelador do IF</h3>
+                <p>Desafio em equipes com perguntas sobre organização e cuidado com os ambientes escolares.</p>
+            </div>
+            
+
+        </section>
+
+        <section id="inscricoes">
+            <h2>Inscrições</h2>
+            <p>Esta página é uma demonstração acadêmica. Para informações sobre eventos e inscrições oficiais, consulte o <a href="https://ifce.edu.br/" target="_blank" rel="noopener noreferrer">site do IFCE</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Instituto Federal do Ceará — Campus Maranguape | Página elaborada pela equipe responsável pelo trabalho de HTML e CSS.</p>
+    </footer>
+</body>
+</html>
